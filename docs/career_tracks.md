@@ -43,6 +43,16 @@ Leadership path:
 
 Applied AI -> AI Platform -> AI Product / Technical Lead -> Head of AI or Director
 
+Relevant functions:
+
+- LLM for biology
+- Biological foundation models
+- Protein AI
+- Drug discovery AI
+- Biomedical AI
+- Scientific AI platform
+- Bio data science
+
 ## Track 4: Scientific Software / Platform
 
 Entry roles:
@@ -56,6 +66,15 @@ Entry roles:
 Leadership path:
 
 Platform -> Solutions / Product -> Engineering or Product Leadership
+
+Relevant functions:
+
+- Scientific cloud
+- Workflow engineering
+- Pipeline engineering
+- Data platform
+- Scientific DevOps
+- Computational infrastructure
 
 ## Track 5: Clinical Genomics
 
@@ -99,3 +118,31 @@ Entry roles:
 Leadership path:
 
 Manufacturing Systems -> Automation / MSAT -> Program or Operations Leadership -> Site or Strategy Leadership
+
+## Track 8: Medical AI / Diagnostics AI
+
+Entry roles:
+
+- Medical AI Data Scientist
+- Clinical AI Analyst
+- Digital Pathology Data Scientist
+- Healthcare AI Engineer
+- Diagnostics AI Scientist
+
+Leadership path:
+
+Medical AI -> Clinical Product / AI Product -> Program or Product Leadership
+
+## Track 9: Validation / Quality / Regulatory Systems
+
+Entry roles:
+
+- Computer System Validation Specialist
+- Software Validation Engineer
+- Data Integrity Specialist
+- Quality Systems Specialist
+- Regulatory Operations Associate
+
+Leadership path:
+
+Validation / Quality Systems -> Quality Program -> Product Compliance / Operations Leadership
