@@ -8,6 +8,8 @@ Title is only a discovery signal. The decision must be based on the full JD.
 
 Do not use keyword matching as the final decision method.
 
+If a job was discovered through LinkedIn or another aggregator, analyze the official JD whenever available. LinkedIn is a radar. Official company or ATS pages are the source of truth.
+
 ## Candidate Lens
 
 The candidate is strongest in:
@@ -39,6 +41,8 @@ For each JD, produce:
    - Clinical Genomics
    - Product
    - Digital Manufacturing
+   - Medical AI
+   - Bio Data Science
    - Validation / Quality
    - Other
 
@@ -75,3 +79,9 @@ For each JD, produce:
 
 8. Leadership question
    - If the candidate works here for three years, will this role move him closer to technical leader, product leader, program leader, or director?
+
+9. Source quality
+   - Official JD
+   - Verified from aggregator
+   - Aggregator only
+   - Needs source verification
