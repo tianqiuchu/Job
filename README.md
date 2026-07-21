@@ -1,12 +1,14 @@
 # Project Lighthouse
 
-Project Lighthouse is a long-term AI-assisted career operating system for Chenshuo Cui.
+Project Lighthouse is a long-term AI-assisted career intelligence platform for Chenshuo Cui.
 
-It is not a job scraper. It is a career decision system that helps collect opportunities, preserve job descriptions, analyze career fit, maintain application materials, and track long-term growth toward technical leadership.
+It is not a job scraper. It is not an ATS optimizer. It is a career decision system that monitors the US Bio + AI + Data job market, preserves official job descriptions, analyzes career fit, maintains application materials, and tracks long-term growth toward technical leadership.
 
 ## Core Principle
 
 Don't build a job search tool. Build a career decision system. Every design decision should support long-term career growth rather than maximizing the number of applications.
+
+The search space is not a short predefined company list. The search space is the full available US Bio + AI + Data job universe. Company lists are dynamic intelligence assets, not the boundary of the search.
 
 ## Roles
 
@@ -23,7 +25,7 @@ Codex acts as the software engineer:
 
 - Repository structure
 - Databases and CSV templates
-- Job collection workflows
+- Job-universe collection workflows
 - Parsing and normalization
 - Tracker updates
 - Report generation infrastructure
@@ -34,6 +36,26 @@ Codex should not make final career judgments. Career scoring, prioritization, an
 ## Candidate Positioning
 
 Biomedical engineer with expertise in AI, machine learning, and biological data science, experienced in translating complex scientific and technical challenges into practical solutions. Strong background in genomics, computational biology, and data engineering, with ability to work across research, engineering, customer, and stakeholder teams. Motivated by solving real-world problems rather than conducting isolated research, with a long-term goal of leading multidisciplinary teams that bridge science, technology, products, and customers.
+
+The candidate is not trying to compete with PhD researchers on publication depth. The candidate's strongest value is solving complex problems, organizing work across teams, understanding customers and stakeholders, and connecting biology, AI/data, engineering, and product delivery.
+
+## Search Philosophy
+
+LinkedIn is a radar, not the source of truth.
+
+Project Lighthouse uses LinkedIn, Indeed, BuiltIn, Wellfound, YC Jobs, and similar platforms for discovery. Every promising job should be verified against an official source whenever possible:
+
+1. Company career page
+2. Greenhouse
+3. Lever
+4. Workday
+5. Ashby
+6. SmartRecruiters
+7. LinkedIn or other aggregators only when no official source is available
+
+If LinkedIn and the official JD disagree, trust the official JD.
+
+Title is only a discovery signal. The decision must come from the full JD.
 
 ## Priority Career Tracks
 
@@ -50,11 +72,19 @@ Biomedical engineer with expertise in AI, machine learning, and biological data 
 companies/
   tier_s.csv
   tier_a.csv
+  company_intelligence.csv
+
+sources/
+  job_sources.csv
 
 tracker/
   jobs.csv
   applied.csv
   blacklist.csv
+
+jobs/
+  raw/
+  normalized/
 
 prompts/
   codex_search.md
@@ -78,6 +108,7 @@ docs/
   candidate_profile.md
   career_tracks.md
   scoring_model.md
+  source_strategy.md
   workflow.md
 
 scripts/
@@ -102,3 +133,5 @@ Lighthouse Score is not an ATS score. It reflects long-term career fit.
 Phase 1 initializes the repository, templates, and documentation.
 
 No crawler is implemented in this phase. No LinkedIn automation is implemented in this phase. Job collection and parsing will be added in later tasks.
+
+The current baseline is Project Lighthouse V2: the market is treated as a job universe, and the company database is treated as dynamic company intelligence.
