@@ -1,0 +1,12 @@
+Source,Type,Trust Rank,Use Case,Notes
+Company Career Page,Official,1,Source of truth,Use whenever available
+Greenhouse,Official ATS,2,Source of truth,Common startup ATS
+Lever,Official ATS,3,Source of truth,Common startup ATS
+Workday,Official ATS,4,Source of truth,Common enterprise ATS
+Ashby,Official ATS,5,Source of truth,Common startup ATS
+SmartRecruiters,Official ATS,6,Source of truth,Common enterprise ATS
+LinkedIn,Aggregator/Radar,7,Discovery,Verify against official source
+Indeed,Aggregator/Radar,8,Discovery,Verify against official source
+BuiltIn,Aggregator/Radar,8,Discovery,Useful for startups
+Wellfound,Aggregator/Radar,8,Discovery,Useful for startups
+YC Jobs,Aggregator/Radar,8,Discovery,Useful for startups
